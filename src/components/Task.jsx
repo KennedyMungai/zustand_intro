@@ -15,7 +15,7 @@ const Task = ({ title }) => {
 				position={'absolute'}
 				bg={'bg-COLOR-PLANNED'}
 				fontWeight={'bold'}
-				color={'gray.700'}
+				fontSize={'0.6rem'}
 			>
 				{STATUS}
 			</Tag>
