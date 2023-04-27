@@ -7,9 +7,9 @@ const theme = extendTheme({
 		'COLOR-GRAY-LIGHT': '#ccc',
 		'COLOR-ONGOING': '#98c1d9',
 		'COLOR-DONE': '#ee6c4d',
-		'bg-COLOR-PLANNED': '#FFAA44',
-		'bg-COLOR-ONGOING': '#FF6677',
-		'bg-COLOR-DONE': '#772288'
+		'bg-COLOR-PLANNED': '#FFAA44AA',
+		'bg-COLOR-ONGOING': '#FF6677AA',
+		'bg-COLOR-DONE': '#772288AA'
 	},
 	fonts: {
 		heading: 'roboto, sans-serif',
