@@ -26,7 +26,9 @@ const Column = ({ state }) => {
 			</Heading>
 			<Divider width={'80%'} />
 			<VStack spacing={'0.5rem'} p={'1rem'} w={'100%'}>
-				<Task title={'Task 1'} />
+				{tasks.map((task) => (
+					<Task title={task.title} key={task.title} />
+				))}
 			</VStack>
 		</Flex>
 	)
