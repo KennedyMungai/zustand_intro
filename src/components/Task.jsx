@@ -10,7 +10,13 @@ const Task = ({ title }) => {
 			borderColor={'whiteAlpha.500'}
 			borderRadius={'0.5rem'}
 		>
-			<Tag size={'sm'} position={'absolute'} bg={'bg-COLOR-PLANNED'}>
+			<Tag
+				size={'sm'}
+				position={'absolute'}
+				bg={'bg-COLOR-PLANNED'}
+				fontWeight={'bold'}
+				color={'gray.700'}
+			>
 				{STATUS}
 			</Tag>
 			<Text p={'0.5rem'} textAlign={'center'}>
