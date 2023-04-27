@@ -1,7 +1,11 @@
-import { Text } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 
 const Column = ({ state }) => {
-	return <Text color={'white'}>{state}</Text>
+	return (
+		<Box color={'white'} bg='COLOR-GRAY-DARK' minHeight={'20rem'}>
+			{state}
+		</Box>
+	)
 }
 
 export default Column
