@@ -16,7 +16,7 @@ const Column = ({ state }) => {
 			<Heading size={'md'} py={'0.5rem'}>
 				{state}
 			</Heading>
-			<Divider width={'90%'} />
+			<Divider width={'80%'} />
 		</Flex>
 	)
 }
