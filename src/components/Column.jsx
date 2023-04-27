@@ -1,7 +1,14 @@
 import { Divider, Flex, Heading, VStack } from '@chakra-ui/react'
 import Task from './Task'
+import { useStore } from '../store'
+import { shallow } from 'zustand/shallow'
 
 const Column = ({ state }) => {
+	const tasks = useStore(
+		(store) => store.tasks.filter((task) => task.state === state),
+		shallow
+	)
+
 	return (
 		<Flex
 			color={'white'}
