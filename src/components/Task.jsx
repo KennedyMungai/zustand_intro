@@ -1,4 +1,6 @@
-import { Text, Box } from '@chakra-ui/react'
+import { Text, Box, Tag, Spacer } from '@chakra-ui/react'
+
+const STATUS = 'PLANNED'
 
 const Task = ({ title }) => {
 	return (
@@ -8,6 +10,9 @@ const Task = ({ title }) => {
 			borderColor={'whiteAlpha.500'}
 			borderRadius={'0.5rem'}
 		>
+			<Tag size={'sm'} position={'absolute'} bg={'yellow.300'}>
+				{STATUS}
+			</Tag>
 			<Text p={'0.5rem'} textAlign={'center'}>
 				{title}
 			</Text>
