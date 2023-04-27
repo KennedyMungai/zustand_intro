@@ -11,6 +11,7 @@ const Column = ({ state }) => {
 			maxWidth={'20rem'}
 			align={'center'}
 			borderRadius={'1rem'}
+			margin={'1rem'}
 		>
 			{state}
 		</Flex>
