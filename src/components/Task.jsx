@@ -23,7 +23,7 @@ const Task = ({ title }) => {
 				{STATUS}
 			</Tag>
 			<Text p={'0.5rem'} textAlign={'center'}>
-				{title}
+				{task.title}
 			</Text>
 		</Box>
 	)
