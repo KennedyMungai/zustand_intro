@@ -1,8 +1,11 @@
 import { Box, Tag, Text } from '@chakra-ui/react'
+import { useStore } from '../store'
 
 const STATUS = 'PLANNED'
 
 const Task = ({ title }) => {
+	const task = useStore((store) => store.tasks.find((t) => t.title === title))
+
 	return (
 		<Box
 			w={'90%'}
