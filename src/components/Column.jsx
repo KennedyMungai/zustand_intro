@@ -1,7 +1,7 @@
 import { Divider, Flex, Heading, VStack } from '@chakra-ui/react'
-import Task from './Task'
-import { useStore } from '../store'
 import { shallow } from 'zustand/shallow'
+import { useStore } from '../store'
+import Task from './Task'
 
 const Column = ({ state }) => {
 	const tasks = useStore(
