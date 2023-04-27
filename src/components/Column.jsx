@@ -7,7 +7,6 @@ const Column = ({ state }) => {
 			bg='COLOR-GRAY-DARK'
 			minHeight={'20rem'}
 			direction={'column'}
-			justify={'center'}
 		>
 			{state}
 		</Flex>
