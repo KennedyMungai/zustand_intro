@@ -20,7 +20,7 @@ const Task = ({ title }) => {
 				fontWeight={'bold'}
 				fontSize={'0.6rem'}
 			>
-				{STATUS}
+				{task.state}
 			</Tag>
 			<Text p={'0.5rem'} textAlign={'center'}>
 				{task.title}
