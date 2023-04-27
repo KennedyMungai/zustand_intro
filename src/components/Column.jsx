@@ -9,6 +9,7 @@ const Column = ({ state }) => {
 			direction={'column'}
 			width={'30%'}
 			maxWidth={'20rem'}
+			align={'center'}
 		>
 			{state}
 		</Flex>
