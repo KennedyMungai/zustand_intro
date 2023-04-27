@@ -1,5 +1,5 @@
-const Column = () => {
-	return <div>Column</div>
+const Column = ({ state }) => {
+	return <div>{state}</div>
 }
 
 export default Column
