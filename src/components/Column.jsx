@@ -1,4 +1,4 @@
-import { Divider, Flex, Heading } from '@chakra-ui/react'
+import { Divider, Flex, Heading, VStack } from '@chakra-ui/react'
 import Task from './Task'
 
 const Column = ({ state }) => {
@@ -18,7 +18,9 @@ const Column = ({ state }) => {
 				{state}
 			</Heading>
 			<Divider width={'80%'} />
-			<Task title={'Task 1'} />
+			<VStack spacing={'0.5rem'} p={'1rem'}>
+				<Task title={'Task 1'} />
+			</VStack>
 		</Flex>
 	)
 }
