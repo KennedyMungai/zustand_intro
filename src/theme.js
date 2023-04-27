@@ -14,13 +14,6 @@ const theme = extendTheme({
 	fonts: {
 		heading: 'roboto, sans-serif',
 		body: 'roboto, sans-serif'
-	},
-	Tag: {
-		variants: {
-			PLANNED: 'bg-COLOR-PLANNED',
-			ONGOING: 'bg-COLOR-ONGOING',
-			DONE: 'bg-COLOR-DONE'
-		}
 	}
 })
 
