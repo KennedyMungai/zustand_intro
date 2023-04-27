@@ -7,6 +7,8 @@ const Column = ({ state }) => {
 			bg='COLOR-GRAY-DARK'
 			minHeight={'20rem'}
 			direction={'column'}
+			width={'30%'}
+			maxWidth={'20rem'}
 		>
 			{state}
 		</Flex>
