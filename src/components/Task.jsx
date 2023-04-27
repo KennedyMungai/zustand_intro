@@ -1,4 +1,4 @@
-import { Text, Box, Tag, Spacer } from '@chakra-ui/react'
+import { Box, Tag, Text } from '@chakra-ui/react'
 
 const STATUS = 'PLANNED'
 
