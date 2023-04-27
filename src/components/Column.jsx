@@ -1,4 +1,4 @@
-import { Flex, Heading } from '@chakra-ui/react'
+import { Divider, Flex, Heading } from '@chakra-ui/react'
 
 const Column = ({ state }) => {
 	return (
@@ -16,6 +16,7 @@ const Column = ({ state }) => {
 			<Heading size={'md'} py={'0.5rem'}>
 				{state}
 			</Heading>
+			<Divider width={'90%'} />
 		</Flex>
 	)
 }
