@@ -1,9 +1,12 @@
 import { Box } from '@chakra-ui/react'
+import Column from './components/Column'
 
 function App() {
 	return (
 		<Box bg={'COLOR-GRAY'} height={'100vh'} width={'100vw'}>
-			Everything in its right place
+			<Column state='PLANNED' />
+			<Column state='ONGOING' />
+			<Column state='DONE' />
 		</Box>
 	)
 }
