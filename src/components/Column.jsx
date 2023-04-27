@@ -6,7 +6,7 @@ const Column = ({ state }) => {
 			color={'white'}
 			bg='COLOR-GRAY-DARK'
 			minHeight={'20rem'}
-			direction={'row'}
+			direction={'column'}
 			justify={'center'}
 		>
 			{state}
