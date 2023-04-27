@@ -1,10 +1,16 @@
-import { Box } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 
 const Column = ({ state }) => {
 	return (
-		<Box color={'white'} bg='COLOR-GRAY-DARK' minHeight={'20rem'}>
+		<Flex
+			color={'white'}
+			bg='COLOR-GRAY-DARK'
+			minHeight={'20rem'}
+			direction={'row'}
+			justify={'center'}
+		>
 			{state}
-		</Box>
+		</Flex>
 	)
 }
 
