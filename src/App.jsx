@@ -9,7 +9,7 @@ function App() {
 			width={'100vw'}
 			justify={'center'}
 		>
-			<Flex>
+			<Flex width={'90%'} p={'2rem'}>
 				<Column state='PLANNED' />
 				<Column state='ONGOING' />
 				<Column state='DONE' />
