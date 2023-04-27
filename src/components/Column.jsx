@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react'
+import { Flex, Heading } from '@chakra-ui/react'
 
 const Column = ({ state }) => {
 	return (
@@ -13,7 +13,9 @@ const Column = ({ state }) => {
 			borderRadius={'1rem'}
 			margin={'1rem'}
 		>
-			{state}
+			<Heading size={'md'} py={'0.5rem'}>
+				{state}
+			</Heading>
 		</Flex>
 	)
 }
