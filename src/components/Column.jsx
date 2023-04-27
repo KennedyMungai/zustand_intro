@@ -18,7 +18,7 @@ const Column = ({ state }) => {
 				{state}
 			</Heading>
 			<Divider width={'80%'} />
-			<VStack spacing={'0.5rem'} p={'1rem'}>
+			<VStack spacing={'0.5rem'} p={'1rem'} w={'100%'}>
 				<Task title={'Task 1'} />
 			</VStack>
 		</Flex>
